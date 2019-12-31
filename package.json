@@ -1,6 +1,6 @@
 {
   "name": "lan-settings",
-  "version": "1.0.0-beta4",
+  "version": "1.0.0-beta4@0.0.1",
   "description": "LAN settings",
   "main": "lib/index.js",
   "keywords": [
@@ -12,12 +12,13 @@
   "homepage": "https://github.com/imweb/lan-settings",
   "repository": {
     "type": "git",
-    "url": "https://github.com/imweb/lan-settings.git"
+    "url": "git+https://github.com/imweb/lan-settings.git"
   },
   "author": "avenwu <avenwu@vip.qq.com>",
   "license": "MIT",
   "dependencies": {
-    "eslint": "^4.14.0"
+    "eslint": "^4.14.0",
+    "regedit": "^2.2.7"
   },
   "optionalDependencies": {
     "regedit": "^2.2.7"
@@ -32,5 +33,12 @@
   },
   "engines": {
     "node": ">= 7.6"
+  },
+  "bugs": {
+    "url": "https://github.com/imweb/lan-settings/issues"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "test"
   }
 }
